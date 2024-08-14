@@ -1,36 +1,19 @@
 plugins {
-    // Apply the java plugin to add support for Java.
     id 'java'
-    
-    // Apply the war plugin to add support for building a WAR file.
     id 'war'
 }
 
 repositories {
-    // Use Maven Central for resolving dependencies.
     mavenCentral()
 }
 
 dependencies {
-    // Use JUnit Jupiter for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
-
-    // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'
-    
-    // Add the Servlet API dependency for building a web application.
     implementation 'javax.servlet:javax.servlet-api:4.0.1'
-    
-    // Optionally, add Tomcat API for additional Tomcat-specific features.
     providedCompile 'org.apache.tomcat:tomcat-servlet-api:9.0.56'
 }
 
 tasks.named('test') {
-    // Use JUnit Platform for unit tests.
     useJUnitPlatform()
-}
-
-// (Optional) Specify the main class if needed for running standalone
-application {
-    mainClass = 'envloggingservice.App'
 }
