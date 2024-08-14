@@ -8,10 +8,18 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+    // Logging dependencies (Log4j 2.x only)
+    implementation 'org.apache.logging.log4j:log4j-core:2.17.2'  // Log4j 2.x core
+    implementation 'org.apache.logging.log4j:log4j-api:2.17.2'   // Log4j 2.x API
+    implementation 'commons-logging:commons-logging:1.2'         // Commons Logging
+
+    // Servlet and other dependencies
     implementation 'com.google.guava:guava:31.1-jre'
-    implementation 'javax.servlet:javax.servlet-api:4.0.1'
-    providedCompile 'org.apache.tomcat:tomcat-servlet-api:9.0.56'
+    implementation 'jakarta.servlet:jakarta.servlet-api:5.0.0'
+    providedCompile 'org.apache.tomcat:tomcat-servlet-api:10.1.4'
+
+    // Testing dependencies
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
 }
 
 tasks.named('test') {
