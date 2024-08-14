@@ -1,4 +1,5 @@
-2024-08-14 21:14:54 INFO  HelloWorldServlet:20 - HelloWorldServlet initialized and Logger is set up
-2024-08-14 21:14:54 DEBUG HelloWorldServlet:25 - This is a DEBUG message
-2024-08-14 21:14:54 INFO  HelloWorldServlet:27 - This is an INFO message
-2024-08-14 21:14:54 WARN  HelloWorldServlet:28 - This is a WARN message
+2024-08-14 21:24:14 INFO  HelloWorldServlet:20 - HelloWorldServlet initialized and Logger is set up
+2024-08-14 21:24:14 DEBUG HelloWorldServlet:25 - This is a DEBUG message
+2024-08-14 21:24:14 TRACE HelloWorldServlet:26 - This is a TRACE message
+2024-08-14 21:24:14 INFO  HelloWorldServlet:27 - This is an INFO message
+2024-08-14 21:24:14 WARN  HelloWorldServlet:28 - This is a WARN message

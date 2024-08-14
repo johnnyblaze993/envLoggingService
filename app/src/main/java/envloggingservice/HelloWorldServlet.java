@@ -29,6 +29,6 @@ public class HelloWorldServlet extends HttpServlet {
 
         // Respond with a simple message
         response.setContentType("text/plain");
-        response.getWriter().write("Hello, World!");
+        response.getWriter().write("Hello, world!");
     }
 }
