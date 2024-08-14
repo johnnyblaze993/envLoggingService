@@ -1,0 +1,4 @@
+2024-08-14 21:14:54 INFO  HelloWorldServlet:20 - HelloWorldServlet initialized and Logger is set up
+2024-08-14 21:14:54 DEBUG HelloWorldServlet:25 - This is a DEBUG message
+2024-08-14 21:14:54 INFO  HelloWorldServlet:27 - This is an INFO message
+2024-08-14 21:14:54 WARN  HelloWorldServlet:28 - This is a WARN message
