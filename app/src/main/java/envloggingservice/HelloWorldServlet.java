@@ -18,6 +18,7 @@ public class HelloWorldServlet extends HttpServlet {
     public HelloWorldServlet() {
         super();
         logger.info("HelloWorldServlet initialized and Logger is set up");
+        System.out.println("TEST_LOG_FILE_LOCATION: " + System.getenv("TEST_LOG_FILE_LOCATION"));
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -29,6 +30,6 @@ public class HelloWorldServlet extends HttpServlet {
 
         // Respond with a simple message
         response.setContentType("text/plain");
-        response.getWriter().write("Hello, world!");
+        response.getWriter().write("Hello, you!");
     }
 }

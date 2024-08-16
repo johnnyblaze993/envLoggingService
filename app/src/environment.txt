@@ -1,1 +1,1 @@
-ENVIRONMENT=dev
+TEST_LOG_FILE_LOCATION=/tmp/test.log

@@ -6,3 +6,6 @@ build
 
 #help me ignore evrything in the logs folder
 *.log
+
+# i dont want .class files
+*.class
