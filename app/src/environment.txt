@@ -1,1 +1,2 @@
 TEST_LOG_FILE_LOCATION=/tmp/test.log
+DSS_LOG_FILE_LOCATION=/tmp/dss.log
